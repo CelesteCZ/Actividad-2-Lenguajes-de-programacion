@@ -1,0 +1,25 @@
+/******************************************************************************
+Maria Celeste Castillo Zavala
+*******************************************************************************/
+#include <iostream>
+
+int main()
+{
+    float num1,num2,suma,resta,multiplicacion,division; /*usaremos datos de tipo flotante para los decimales*/
+    
+    std::cout<<"Introduce el valor del primero número: "; /*El usuario debe agregar el valor a calcular*/
+    std::cin>>num1; /*Lo guardamos en la variable num1*/
+    std::cout<<"Introduce el valor del segundo número: "; /*El usuario ingresa el segundo numero*/
+    std::cin>>num2; /*lo guardamos en la variable num2*/
+    
+    suma=num1+num2; /*Se realiza la sumatoria*/
+    resta=num1-num2; /*Se realiza la resta*/
+    multiplicacion=num1*num2; /*Se realiza la multiplicación*/
+    division=num1/num2; /*Se realiza la division*/
+    
+    std::cout<<"La suma es; "<<suma<<std::endl; /*Imprime el resultado de la suma*/
+    std::cout<<"La resta es; "<<resta<<std::endl; /*Imprime el resultado de la resta*/
+    std::cout<<"La multipicacion es; "<<multiplicacion<<std::endl; /*Imprime el resultado de la multiplicacion*/
+    std::cout<<"La division es; "<<division<<std::endl;  /*Imprime el resultado de la division*/
+    return 0;
+}
